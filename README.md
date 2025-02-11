@@ -10,16 +10,22 @@
 
 <h2>Preparation</h2>
 
-- <a Set up a Windows client computer and a Windows Active Directory server on suitable hardware.</a>
+- Set up a Windows client computer and a Windows Active Directory server on suitable hardware
 
-<h1>Objectives: Create a functional domain environment </h1>
+<h1>Objectives: Create a functional domain environment</h1>
 
-<h2>The creation of a new Active Directory forest.</h2>
-  The initial step in Active Directory deployment involves 
-  The creation of a new Active Directory forest.This is a foundational step in any Active Directory deployment.
+<h2>The creation of a new Active Directory forest</h2>
+
+- The initial step in Active Directory deployment involves the creation of a new Active Directory forest.This is a foundational step in any Active Directory deployment
+
 <h2> Setting up Root Domain </h2>
-  The first step in building your Active Directory is creating the root domain.  All subsequent domains in the forest will be child domains of this root.
-  - Create Administator Account
+  
+- The first step in building your Active Directory is creating the root domain.  All subsequent domains in the forest will be child domains of this root.
+
+<h2>  Create Administator Account</h2>
+
+- This account will ensure the health and integrity of the Active Directory database. It's essential to assign this role to trusted users to manage the domain effectively and securely.
+
 
 <h4>Scenario Simulation</h4>
 
