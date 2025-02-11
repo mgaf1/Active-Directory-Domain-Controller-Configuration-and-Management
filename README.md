@@ -12,7 +12,7 @@
 
 - <a href="https://github.com/kirkgacias/ad-and-azuresetup"> Preliminary Setup for Active Directory and Network Traffic Analysis between Azure VMs </a>
 
-<h1>Objectives</h1>
+<h1>Objectives: Create a functional domain environment </h1>
 
 <h2>The creation of a new Active Directory forest.</h2>
   The initial step in Active Directory deployment involves 
