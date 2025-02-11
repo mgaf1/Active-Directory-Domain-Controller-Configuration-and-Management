@@ -10,7 +10,7 @@
 
 <h2>Preparation</h2>
 
-- <a href="https://github.com/kirkgacias/ad-and-azuresetup"> Preliminary Setup for Active Directory and Network Traffic Analysis between Azure VMs </a>
+- <a Set up a Windows client computer and a Windows Active Directory server on suitable hardware.</a>
 
 <h1>Objectives: Create a functional domain environment </h1>
 
