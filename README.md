@@ -3,35 +3,53 @@
 </p>
 -->
 
-<h1> Active Directory Domain Controller Configuration and Management </h1>
+# Active Directory Domain Controller Configuration and Management  
+
+This project focuses on configuring and managing an Active Directory Domain Controller (DC). Key tasks include installing Active Directory Domain Services (AD DS), promoting a server to a DC, configuring DNS integration, and managing Group Policies. It demonstrates the process of setting up a domain and managing its core components.  
+
+## Preparation: Operating System, Tools, and Resources  
+
+- **Windows Server 2019** – Hosts the Active Directory Domain Controller  
+- **Windows 10 (Client Machine)** – Connects to and tests the domain environment  
+- **Stable Internet Connection** – Required for updates and domain synchronization  
+
+## Objectives  
+
+- **Install and run virtual machines** – Set up a virtualized environment for testing  
+- **Configure networking for the virtual environment** – Choose NAT, Bridged, or Host-Only networking  
+- **Create a functional domain environment** – Establish a secure and manageable domain structure  
+- **Set up a new Active Directory forest and add a root domain** – Create the foundational AD structure  
+- **Create an Administrator account** – Manage domain users and permissions  
+- **Link a virtual Windows client machine to the Active Directory domain** – Enable centralized authentication and resource access
+
+## Steps
+
+ - **1. Insall Active Directory** - AD - In this step select Manage tab in the upper-right conner and select **Add Roles and Features.**
 
 
-<p>This project focuses on configuring and managing an Active Directory domain controller. Key tasks includeinstalling AD DS, promoting a server to a DC, configuring DNS integration, managing group policies . It demonstrates the process of setting up a domain and managing its core components.</p>
 
-<h2>Preparation: Operating System ,Tools and Resources </h2>
 
- - Virtual Machine - Virtual Box
- - Active Directory Domain Services (AD)
- - Windows 10 - Client Machine
 
-- Set up a Windows client computer and a Windows Active Directory server (AD)
 
-<h1>Objectives: Create a functional domain environment</h1>
 
-<h2>The creation of a new Active Directory forest</h2>
 
-- The initial step in Active Directory deployment involves the creation of a new Active Directory forest.This is a foundational step in any Active Directory deployment
 
-<h2> Setting up Root Domain </h2>
-  
-- The first step in building your Active Directory is creating the root domain.  All subsequent domains in the forest will be child domains of this root.
 
-<h2>  Create Administator Account</h2>
 
-- A Domain Administrator is a user with extensive privileges within a Windows Server Active Directory domain. It's essential to assign this role to trusted users to manage the domain effectively and securely.
 
-<h2> Connect Virtual Windows client machine to Active Directory </h2>
+
+
+
+
+
+
+
+<h2></h2>
 Connecting a client machine to a domain server ensures efficiency within a network. 
+
+
+
+
 
 
 
