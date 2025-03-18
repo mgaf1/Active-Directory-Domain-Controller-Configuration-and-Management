@@ -24,13 +24,31 @@ This project focuses on configuring and managing an Active Directory Domain Cont
 
 ## Steps
 
- - **1. Insall Active Directory** - AD - In this step select Manage tab in the upper-right conner and select **Add Roles and Features.**
+ - **1. Insall Active Directory(AD)**
+   - In this step, Navigate to the Manage tab and select **Add Roles and Features.**
+ <img src="https://github.com/user-attachments/assets/fb7ba54a-e64d-415e-a3d4-954096831396"/>
+
+<br></br>
+
+ - **2. Adding Features in Add Roles and Features Wizard Pop-Up Window**
+   -  When the pop-up window appears click on **Add Features**
+   <img src="https://github.com/user-attachments/assets/9343c117-6cf7-459b-9d88-38aa331feebb"/>
+<br></br>
+- **3. Promote AD to a Domain Controller (DC)**
+   -  When the pop-up window appears click on **Add Features**
+   <img src="https://github.com/user-attachments/assets/a5d43db8-9bbd-41c9-bf67-5588f0a5ea12"/>
 
 
 
+![5 creation of root domain](https://github.com/user-attachments/assets/7949531e-4b79-4296-a526-f3152396d361)
+![6 creation of domain password](https://github.com/user-attachments/assets/fbaf83e1-a861-4d7d-860b-5ce7753522be)
+
+![5 creation of root domain](https://github.com/user-attachments/assets/f530a746-5e99-4f23-87f9-f6f8f17ee5ef)
 
 
+![8 checking all prerequisite before forest creation final installation](https://github.com/user-attachments/assets/b9e1e360-d013-4e35-8faf-2c07314eecc6)
 
+![9 ad successfully promoted to domain controller](https://github.com/user-attachments/assets/a7c4671f-7231-47a8-aad5-1ad799f46c93)
 
 
 
