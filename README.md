@@ -15,10 +15,10 @@ This project focuses on configuring and managing an Active Directory Domain Cont
 
 ## Objectives  
 
-- **Install and run virtual machines** – Set up a virtualized environment for testing  
-- **Configure networking for the virtual environment** – Choose NAT, Bridged, or Host-Only networking  
-- **Create a functional domain environment** – Establish a secure and manageable domain structure  
-- **Set up a new Active Directory forest and add a root domain** – Create the foundational AD structure  
+- **Install and run virtual machines** – Set up a virtualized environment
+- **Configure networking for the virtual environment** – In this lab I will be using Internal Network named **ADproject**
+- **Create a functional domain environment** – Establish a secure and manageable Domain structure  
+- **Set up a new Active Directory forest and add a root domain** – The new forest is the top level and serves as the main structure for the virtual environment.  
 - **Create an Administrator account** – Manage domain users and permissions  
 - **Link a virtual Windows client machine to the Active Directory domain** – Enable centralized authentication and resource access
 
@@ -37,26 +37,30 @@ This project focuses on configuring and managing an Active Directory Domain Cont
 - **3. Promote AD to a Domain Controller (DC)**
    -  When the pop-up window appears click on **Add Features**
    <img src="https://github.com/user-attachments/assets/a5d43db8-9bbd-41c9-bf67-5588f0a5ea12"/>
+   
+   <br></br>
+- **4. Creation of root domain name** Add domain name as root domain. In this lab,the root domain will be **mydomain.local**
+ <img src="https://github.com/user-attachments/assets/7949531e-4b79-4296-a526-f3152396d361"/>
+
+<br></br>
+- **5. Creation of Domain Password** Create domain password. This credentials will be used to log on to the (AD)
+ <img src="https://github.com/user-attachments/assets/8c378a43-6dee-42c5-8dc0-c6ef3671dca3"/>
+ 
+
+<br></br>
+- **6. Check All Prerequisites Before Final Installation** – These are the components that need to be installed
+ <img src="https://github.com/user-attachments/assets/8653fb7c-7577-4269-b83b-940b375e108d"/>
+"/>
 
 
+<br></br>
+- **7.Installation Successful** – These are the components that need to be installed
+ <img src="https://github.com/user-attachments/assets/9921eb15-b810-43e4-a6b7-cbb678f9af5c"/>
 
-![5 creation of root domain](https://github.com/user-attachments/assets/7949531e-4b79-4296-a526-f3152396d361)
-![6 creation of domain password](https://github.com/user-attachments/assets/fbaf83e1-a861-4d7d-860b-5ce7753522be)
-
-![5 creation of root domain](https://github.com/user-attachments/assets/f530a746-5e99-4f23-87f9-f6f8f17ee5ef)
-
-
-![8 checking all prerequisite before forest creation final installation](https://github.com/user-attachments/assets/b9e1e360-d013-4e35-8faf-2c07314eecc6)
-
-![9 ad successfully promoted to domain controller](https://github.com/user-attachments/assets/a7c4671f-7231-47a8-aad5-1ad799f46c93)
-
-
-
-
-
-
-
-
+ <br></br>
+- **7.Create Adminstrator Account in AD** – The Administrator account will be used to manage 
+ <img src="https://github.com/user-attachments/assets/9921eb15-b810-43e4-a6b7-cbb678f9af5c"/>
+ 
 
 
 
