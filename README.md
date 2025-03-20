@@ -28,40 +28,45 @@ This project focuses on configuring and managing an Active Directory Domain Cont
  <img src="https://github.com/user-attachments/assets/fb7ba54a-e64d-415e-a3d4-954096831396"/>
 
 <br></br>
-
- - **2. Adding Features in Add Roles and Features Wizard Pop-Up Window**
-   -  When the pop-up window appears click on **Add Features**
+  - **Adding Features in Add Roles and Features Wizard Pop-Up Window**
+   -  When the pop-up window appears click on **Add Features** and install our Active Directory
    <img src="https://github.com/user-attachments/assets/9343c117-6cf7-459b-9d88-38aa331feebb"/>
+
+  <br></br>
+  - Select the roles you will like to add to the Server. In his lab i will select **Active Directory Domain Services**
+  <img src="https://github.com/user-attachments/assets/c161c795-a257-469b-8997-c90afcc6fa52"/>
+
 <br></br>
-- **3. Promote AD to a Domain Controller (DC)**
-  -  When the pop-up window appears click on **Add Features**
+- **2. Promote AD to a Domain Controller (DC)**
+  -  Click on the flag icon in the Tab, In the dropdown click on **Promote this Server to a Domain Controller**
    <img src="https://github.com/user-attachments/assets/a5d43db8-9bbd-41c9-bf67-5588f0a5ea12"/>
-   
-   <br></br>
-- **4. Creation of root domain name** - In this lab,the root domain will be **mydomain.local**
+  <br></br>
+  - **Creation of root domain name** - In this lab,the root domain will be **mydomain.local**
  <img src="https://github.com/user-attachments/assets/7949531e-4b79-4296-a526-f3152396d361"/>
+  <br></br>
 
-<br></br>
-- **5. Creation of Domain Password** - This credentials will be used to log on to the (AD)
+  - **Create a strong password** - This credentials will be used to log on to the (AD)
  <img src="https://github.com/user-attachments/assets/8c378a43-6dee-42c5-8dc0-c6ef3671dca3"/>
- 
-
 <br></br>
-- **6. Check All Prerequisites Before Final Installation** – These are the components that need to be installed
+
+   - **Check All Prerequisites Before Final Installation** – These are the components that need to be installed
  <img src="https://github.com/user-attachments/assets/8653fb7c-7577-4269-b83b-940b375e108d"/>
   <br></br>
-  Next,You will see a pop-up window to confirm installation was sucessful
+  
+   - Next,You will see a pop-up window to confirm installation was sucessful
  <img src="https://github.com/user-attachments/assets/9921eb15-b810-43e4-a6b7-cbb678f9af5c"/>
 
  <br></br>
-- **7.Create Adminstrator Account in AD** – The Administrator account will be used to manage User,Organisation Unit(O.U)
+- **3.Create Adminstrator Account in AD** – The Administrator account will be used to manage User,Organisation Unit(O.U)
   groups and computers etc. In the Server Manager,look on the upright corner of the server manager and select he tab **Tools** and **Active Directory Users and Computers**
  <img src="https://github.com/user-attachments/assets/62e98bae-14fc-460c-8ed0-5f09348b335e"/>
- <br></br>
+
+<br></br>
  - Click on the dropdown icon next to the **Domain Name** you created for your forest to display all the **AD Objects** 
   <img src="https://github.com/user-attachments/assets/02ad6de3-dc07-43be-8e8a-be8e3b3286a4"/>
 <br></br>
-- **8.Connecting a client machine to a Domain Server** To ensure efficiency within a network. 
+
+- **7.Connecting a client machine to a Domain Server** To ensure efficiency within a network
 
 
 <h2> Conclusion </h2>
