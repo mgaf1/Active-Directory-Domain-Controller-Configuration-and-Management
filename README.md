@@ -1,9 +1,8 @@
-<!-- <p align="center">
+< <p align="center">
 <img src="https://i.imgur.com/pU5A58S.png" alt="Microsoft Active Directory Logo"/>
 </p>
--->
 
-# Active Directory Domain Controller Configuration and Management  
+<h1> Active Directory Domain Controller Configuration and Management</h1>
 
 This project focuses on configuring and managing an Active Directory Domain Controller (DC). Key tasks include installing Active Directory Domain Services (AD DS), promoting a server to a DC, configuring DNS integration, and managing Group Policies. It demonstrates the process of setting up a domain and managing its core components.  
 
@@ -35,15 +34,15 @@ This project focuses on configuring and managing an Active Directory Domain Cont
    <img src="https://github.com/user-attachments/assets/9343c117-6cf7-459b-9d88-38aa331feebb"/>
 <br></br>
 - **3. Promote AD to a Domain Controller (DC)**
-   -  When the pop-up window appears click on **Add Features**
+  -  When the pop-up window appears click on **Add Features**
    <img src="https://github.com/user-attachments/assets/a5d43db8-9bbd-41c9-bf67-5588f0a5ea12"/>
    
    <br></br>
-- **4. Creation of root domain name** Add domain name as root domain. In this lab,the root domain will be **mydomain.local**
+- **4. Creation of root domain name** - In this lab,the root domain will be **mydomain.local**
  <img src="https://github.com/user-attachments/assets/7949531e-4b79-4296-a526-f3152396d361"/>
 
 <br></br>
-- **5. Creation of Domain Password** Create domain password. This credentials will be used to log on to the (AD)
+- **5. Creation of Domain Password** - This credentials will be used to log on to the (AD)
  <img src="https://github.com/user-attachments/assets/8c378a43-6dee-42c5-8dc0-c6ef3671dca3"/>
  
 
@@ -56,28 +55,15 @@ This project focuses on configuring and managing an Active Directory Domain Cont
 
  <br></br>
 - **7.Create Adminstrator Account in AD** – The Administrator account will be used to manage User,Organisation Unit(O.U)
-  groups and computers etc. Look on the upright corner of the server manager and select he tab Tools and Add Users and Computers.
- **Tools** <img src="https://github.com/user-attachments/assets/9a830445-b7b6-47a0-b5f3-9beb635eb150" />
- **Add Users and Computers - 
- 
+  groups and computers etc. In the Server Manager,look on the upright corner of the server manager and select he tab **Tools** and **Active Directory Users and Computers**
+ <img src="https://github.com/user-attachments/assets/62e98bae-14fc-460c-8ed0-5f09348b335e"/>
+ <br></br>
+ - Click on the dropdown icon next to the **Domain Name** you created for your forest to display all the **AD Objects** 
+  <img src="https://github.com/user-attachments/assets/02ad6de3-dc07-43be-8e8a-be8e3b3286a4"/>
+<br></br>
+- **8.Connecting a client machine to a Domain Server** To ensure efficiency within a network. 
 
 
-
-
-
-<h2></h2>
-Connecting a client machine to a domain server ensures efficiency within a network. 
-
-
-
-
-
-
-
-
-
-
-<h2> Final Thoughts </h2>
-
+<h2> Conclusion </h2>
 <p>
-In summary, Active Directory is crucial for managing user accounts and network resources. The scenarios provided cover common IT help desk tasks, such as creating user accounts, resetting passwords, updating group memberships, and handling account deactivation. These scenarios serve as practical exercises for training IT personnel and highlight the importance of Active Directory in maintaining a secure and organized digital environment. </p>
+In summary, Active Directory is used for managing user accounts and network resources. The scenarios provided cover common IT help desk tasks, such as creating user accounts, resetting passwords, updating group memberships, and handling account deactivation. These scenarios serve as practical exercises for training IT personnel and highlight the importance of Active Directory in maintaining a secure and organized digital environment. </p>
