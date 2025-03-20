@@ -50,16 +50,15 @@ This project focuses on configuring and managing an Active Directory Domain Cont
 <br></br>
 - **6. Check All Prerequisites Before Final Installation** – These are the components that need to be installed
  <img src="https://github.com/user-attachments/assets/8653fb7c-7577-4269-b83b-940b375e108d"/>
-"/>
-
-
-<br></br>
-- **7.Installation Successful** – These are the components that need to be installed
+  <br></br>
+  Next,You will see a pop-up window to confirm installation was sucessful
  <img src="https://github.com/user-attachments/assets/9921eb15-b810-43e4-a6b7-cbb678f9af5c"/>
 
  <br></br>
-- **7.Create Adminstrator Account in AD** – The Administrator account will be used to manage 
- <img src="https://github.com/user-attachments/assets/9921eb15-b810-43e4-a6b7-cbb678f9af5c"/>
+- **7.Create Adminstrator Account in AD** – The Administrator account will be used to manage User,Organisation Unit(O.U)
+  groups and computers etc. Look on the upright corner of the server manager and select he tab Tools and Add Users and Computers.
+ **Tools** <img src="https://github.com/user-attachments/assets/9a830445-b7b6-47a0-b5f3-9beb635eb150" />
+ **Add Users and Computers - 
  
 
 
