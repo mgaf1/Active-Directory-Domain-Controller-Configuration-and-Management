@@ -15,7 +15,7 @@ This project focuses on configuring and managing an Active Directory Domain Cont
 ## Objectives  
 
 - **Install and run virtual machines** – Set up a virtualized environment
-- **Configure networking for the virtual environment** – In this lab I will be using Internal Network named **ADproject**
+- **Configure networking for the virtual environment** – In this lab I will be using **Internal Network** named **ADproject**
 - **Create a functional domain environment** – Establish a secure and manageable Domain structure  
 - **Set up a new Active Directory forest and add a root domain** – The new forest is the top level and serves as the main structure for the virtual environment.  
 - **Create an Administrator account** – Manage domain users and permissions  
@@ -24,16 +24,18 @@ This project focuses on configuring and managing an Active Directory Domain Cont
 ## Steps
 
  - **1. Insall Active Directory(AD)**
-   - In this step, Navigate to the Manage tab and select **Add Roles and Features.**
- <img src="https://github.com/user-attachments/assets/fb7ba54a-e64d-415e-a3d4-954096831396"/>
+   - Navigate to the Menu tab tab in the upper right corner and select **Manage** and **Add Roles and Features.**
+ <img src="https://github.com/user-attachments/assets/00660db0-54b6-4c77-9b55-5b8082e4aae2"/>
 
 <br></br>
   - **Adding Features in Add Roles and Features Wizard Pop-Up Window**
-   -  When the pop-up window appears click on **Add Features** and install our Active Directory
+    - When the pop-up window appears click on **Add Features** and install our Active Directory
    <img src="https://github.com/user-attachments/assets/9343c117-6cf7-459b-9d88-38aa331feebb"/>
 
   <br></br>
-  - Select the roles you will like to add to the Server. In his lab i will select **Active Directory Domain Services**
+  - **Select the roles you will like to add to the Server**
+    - In this lab select **Active Directory Domain Services** and click Install to proceed
+    - Wait for the installation to finish. A Warning icon will indicate next to the flag icon in the menu tab
   <img src="https://github.com/user-attachments/assets/c161c795-a257-469b-8997-c90afcc6fa52"/>
 
 <br></br>
