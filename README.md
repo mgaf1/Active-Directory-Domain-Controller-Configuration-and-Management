@@ -2,7 +2,7 @@
   <img src="https://github.com/user-attachments/assets/48ecb6c3-9465-4d26-9c94-5eee9f6ea8ee" width="300"/>
 </p>
 
-<h1> Active Directory Domain Controller Configuration and Management</h1>
+<h1> Active Directory (AD) Domain Controller(DC) Configuration and Management</h1>
 
 This project focuses on configuring and managing an Active Directory Domain Controller (DC). Key tasks include installing Active Directory Domain Services (AD DS), promoting a server to a DC, configuring DNS integration, and managing Group Policies. It demonstrates the process of setting up a domain and managing its components.  
 
@@ -16,10 +16,10 @@ This project focuses on configuring and managing an Active Directory Domain Cont
 
 - **Install and run virtual machines** – Set up a virtualized environment
 - **Create a functional domain environment** – Establish a secure and manageable Domain structure  
-- **Set up a new Active Directory forest and create a Root Domain** – The new forest is the top level and serves as the main structure for the virtual environment.  
+- **Set up a new Active Directory forest and create a Root Domain** –  This creates the main system that organizes and manages all computers and users in the network  
 - **Create an Administrator account** – Manage domain users and permissions  
-- **Link a virtual Windows client machine to the Active Directory domain** – Enable centralized authentication and resource access
-- **AD Objects Managements** - Add User accounts,Organisation management
+- **Link a virtual Windows client machine to the Active Directory domain** – Allows users to log in and access network resources from one central system.
+- **AD Objects Managements** Create user accounts and organize them into departments for easier management.
 
 ## Steps
 
