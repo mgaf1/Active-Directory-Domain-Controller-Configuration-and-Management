@@ -71,9 +71,18 @@ This project focuses on configuring and managing an Active Directory Domain Cont
 - **Create Organisational Unit (O.U) named ADMINS and EMPLOYEES** - These serve as containers for users and their respective departments.
 <br></br>
 
--**Create Administrater and Users**
+<img src="https://github.com/user-attachments/assets/a88c3035-bda4-4132-9164-b942a2b9f20c"/>
+<br></br>
 
-  <img src="https://github.com/user-attachments/assets/a88c3035-bda4-4132-9164-b942a2b9f20c"/>
+- **Create Administrator and Users** - These accounts will be used to access **mydomain.local**
+  - Right-click on ADMIN, select New User, I will name the user M Gaf, and assign them the **Domain Admins** role
+    - Double-click the newly created user, go to **Properties**, and click on the **Member Of** tab to add **New User** to **Domain Admins**.
+  <br></br>
+  <img src="https://github.com/user-attachments/assets/38a1963f-f725-4075-a110-78458f0479e9"/>
+
+   <img src="https://github.com/user-attachments/assets/a9cd6022-1695-4a5e-a80f-fd2fea190fca"/>
+  
+  
 
    
    
