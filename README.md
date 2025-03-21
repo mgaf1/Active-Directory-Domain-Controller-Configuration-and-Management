@@ -74,7 +74,7 @@ This project covers setting up and managing an Active Directory Domain Controlle
 <br></br>
 
 - **Create Administrator and Users** - These accounts will be used to access **mydomain.local**
-  - Right-click on ADMIN, Left-click to select **New User**(eg. in this lab M Gaf)
+  - Right-click on ADMIN, Left-click to select **New User**(eg. in this lab **michael**)
     - Now the user is created.Double-click the new user account, go to **Properties**, and click the **Member Of** tab to add **M Gaf** to **Domain Admins**
   <br></br>
   <img src="https://github.com/user-attachments/assets/38a1963f-f725-4075-a110-78458f0479e9"/>
