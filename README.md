@@ -88,18 +88,22 @@ This project focuses on configuring and managing an Active Directory Domain Cont
   <img src= "https://github.com/user-attachments/assets/239c4472-8b82-4e0e-aa31-38c761af01c2"/>
 
 - **4. Link Virtual client Machine to AD Domain controller**- To enable centralized authentication and user management .
-   - Open windows client machine,click settings and navigate to System .Scroll down and righ-click Advance system settings
-   - Open the Computer name tab in the pop-up window and click change to link Client machine to AC Domain controller ACDC.
-   - In my lab i will name my client machine **Target** ,select Domain to join client to AC DC.
-  <br></br>
 
-  <img src="https://github.com/user-attachments/assets/d8f43b8b-f3b1-49cd-b497-537dddbdf0a3"/>
+  - **Set the AD DC IP as the client's preferred DNS** - To enable domain name resolution, authentication, and Group Policy application.
+    <img src="https://github.com/user-attachments/assets/dd17d1b6-37e5-4ffc-ae51-cef402a50b8f"/>
+   <br></br>
+   
+  - Next, Open windows client machine,click settings and navigate to System
+  - Scroll down and righ-click Advance system settings
+  - Open the Computer name tab in the pop-up window and click change to link Client machine to AC Domain controller ACDC.
+  - In my lab i will name my client machine **Target** ,select Domain to join client to AC DC.
+  <br></br>
+  <img src="https://github.com/user-attachments/assets/c9dd8ec1-a665-4eef-b4dd-24e44c9b1e96"/>
 <br></br>
-  - **logout and log back into client machine as Admin user account **michael****
-  
+  - **Logout and log back into client machine as Admin user account **michael****
   <br></br>
   
-   <img src="https://github.com/user-attachments/assets/99ff36f0-d288-4da8-af61-2c943a48441f"/>
+  <img src="https://github.com/user-attachments/assets/99ff36f0-d288-4da8-af61-2c943a48441f"/>
 
 
 <h2> Conclusion </h2>
