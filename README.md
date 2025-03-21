@@ -8,9 +8,10 @@ This project covers setting up and managing an Active Directory Domain Controlle
 
 ## Preparation: Operating System, Tools, and Resources  
 
-- **Windows Server 2019** – Hosts the Active Directory Domain Controller  
-- **Windows 10 (Client Machine)** – Connects to and tests the domain environment  
-- **Stable Internet Connection** – Required for updates and domain synchronization  
+- **Windows Server 2019** 
+- **Windows 10 (Client Machine)** – 
+- **Virtual Box**
+- **Stable Internet Connection** 
 
 ## Objectives  
 
