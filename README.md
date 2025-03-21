@@ -16,7 +16,7 @@ This project focuses on configuring and managing an Active Directory Domain Cont
 
 - **Install and run virtual machines** – Set up a virtualized environment
 - **Create a functional domain environment** – Establish a secure and manageable Domain structure  
-- **Set up a new Active Directory forest and add a root domain** – The new forest is the top level and serves as the main structure for the virtual environment.  
+- **Set up a new Active Directory forest and create a Root Domain** – The new forest is the top level and serves as the main structure for the virtual environment.  
 - **Create an Administrator account** – Manage domain users and permissions  
 - **Link a virtual Windows client machine to the Active Directory domain** – Enable centralized authentication and resource access
 - **AD Objects Managements** - Add User accounts,Organisation management
