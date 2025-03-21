@@ -74,8 +74,8 @@ This project covers setting up and managing an Active Directory Domain Controlle
 <br></br>
 
 - **Create Administrator and Users** - These accounts will be used to access **mydomain.local**
-  - Right-click on ADMIN, select New User, I will name the user M Gaf, and assign them the **Domain Admins** role
-    - Double-click the newly created user, go to **Properties**, and click on the **Member Of** tab to add **New User** to **Domain Admins**.
+  - Right-click on ADMIN, Left-click to select **New User**(eg. in this lab M Gaf)
+    - Now the user is created.Double-click the new user account, go to **Properties**, and click the **Member Of** tab to add **M Gaf** to **Domain Admins**
   <br></br>
   <img src="https://github.com/user-attachments/assets/38a1963f-f725-4075-a110-78458f0479e9"/>
 
@@ -92,10 +92,11 @@ This project covers setting up and managing an Active Directory Domain Controlle
     <img src="https://github.com/user-attachments/assets/dd17d1b6-37e5-4ffc-ae51-cef402a50b8f"/>
    <br></br>
    
-  - Next, Open windows client machine,click settings and navigate to System
+  - Open the Windows client machine, go to Settings, and select System.
   - Scroll down and righ-click Advance system settings
-  - Open the Computer name tab in the pop-up window and click change to link Client machine to AC Domain controller ACDC.
-  - In my lab i will name my client machine **Target** ,select Domain to join client to AC DC.
+  - Click the Computer Name tab and then select **Change** to connect the client machine to the AD Domain..
+  - Name the client machine (e.g., **Target** for this lab).
+  -Unselect Workgroups and Select Domain to join client to AD DC.
   <br></br>
   <img src="https://github.com/user-attachments/assets/c9dd8ec1-a665-4eef-b4dd-24e44c9b1e96"/>
 <br></br>
@@ -107,4 +108,4 @@ This project covers setting up and managing an Active Directory Domain Controlle
 
 <h2> Conclusion </h2>
 <p>
-In summary, Active Directory is used for managing user accounts and network resources. The scenarios provided cover common IT help desk tasks, such as creating user accounts, resetting passwords, updating group memberships, and handling account deactivation. These scenarios serve as practical exercises for training IT personnel and highlight the importance of Active Directory in maintaining a secure and organized digital environment. </p>
+This project sets up an Active Directory Domain Controller to manage users and resources in a network. It helps keep everything organized, secure, and easy to manage. </p>
