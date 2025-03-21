@@ -4,7 +4,7 @@
 
 <h1> Active Directory Domain Controller Configuration and Management</h1>
 
-This project focuses on configuring and managing an Active Directory Domain Controller (DC). Key tasks include installing Active Directory Domain Services (AD DS), promoting a server to a DC, configuring DNS integration, and managing Group Policies. It demonstrates the process of setting up a domain and managing its core components.  
+This project focuses on configuring and managing an Active Directory Domain Controller (DC). Key tasks include installing Active Directory Domain Services (AD DS), promoting a server to a DC, configuring DNS integration, and managing Group Policies. It demonstrates the process of setting up a domain and managing its components.  
 
 ## Preparation: Operating System, Tools, and Resources  
 
@@ -15,7 +15,6 @@ This project focuses on configuring and managing an Active Directory Domain Cont
 ## Objectives  
 
 - **Install and run virtual machines** – Set up a virtualized environment
-- **Configure networking for the virtual environment** – In this lab I will be using **Internal Network** named **ADproject**
 - **Create a functional domain environment** – Establish a secure and manageable Domain structure  
 - **Set up a new Active Directory forest and add a root domain** – The new forest is the top level and serves as the main structure for the virtual environment.  
 - **Create an Administrator account** – Manage domain users and permissions  
