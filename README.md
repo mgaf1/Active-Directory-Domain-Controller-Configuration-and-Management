@@ -2,9 +2,9 @@
   <img src="https://github.com/user-attachments/assets/48ecb6c3-9465-4d26-9c94-5eee9f6ea8ee" width="300"/>
 </p>
 
-<h1> Active Directory (AD) Domain Controller(DC) Configuration and Management</h1>
+<h1> Active Directory Domain Controller Configuration and Management</h1>
 
-This project focuses on configuring and managing an Active Directory Domain Controller (DC). Key tasks include installing Active Directory Domain Services (AD DS), promoting a server to a DC, configuring DNS integration, and managing Group Policies. It demonstrates the process of setting up a domain and managing its components.  
+This project covers setting up and managing an Active Directory Domain Controller (DC), including installing AD DS, promoting a server to a DC, configuring DNS, and managing Group Policies.
 
 ## Preparation: Operating System, Tools, and Resources  
 
