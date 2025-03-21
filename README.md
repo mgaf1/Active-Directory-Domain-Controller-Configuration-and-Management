@@ -60,7 +60,7 @@ This project focuses on configuring and managing an Active Directory Domain Cont
  <img src="https://github.com/user-attachments/assets/9921eb15-b810-43e4-a6b7-cbb678f9af5c"/>
 
  <br></br>
-- **3.Create Containers and Users in Active Directory** – The Administrator account will be used to manage User,Organisation Unit(O.U)
+- **3.Create Organisational Units and Users in Active Directory** – The Administrator account will be used to manage User,Organisation Unit(O.U)
   groups and computers etc. In the Server Manager,look on the upright corner of the server manager and select he tab **Tools** and **Active Directory Users and Computers**
  <img src="https://github.com/user-attachments/assets/62e98bae-14fc-460c-8ed0-5f09348b335e"/>
 
@@ -68,7 +68,7 @@ This project focuses on configuring and managing an Active Directory Domain Cont
  - Click on the dropdown icon next to the **Domain Name** you created for your forest to display all the **AD Objects** 
 <br></br>
 
-- **Create Organisational Unit (O.U) named ADMINS and EMPLOYEES** - These serve as containers for users and their respective departments.
+- **Create Organisational Unit (O.U) named ADMINS ,EMPLOYEES and USERS** - These serve as containers for users and their respective departments.
 <br></br>
 
 <img src="https://github.com/user-attachments/assets/a88c3035-bda4-4132-9164-b942a2b9f20c"/>
@@ -81,6 +81,8 @@ This project focuses on configuring and managing an Active Directory Domain Cont
   <img src="https://github.com/user-attachments/assets/38a1963f-f725-4075-a110-78458f0479e9"/>
 
    <img src="https://github.com/user-attachments/assets/a9cd6022-1695-4a5e-a80f-fd2fea190fca"/>
+- **Abbrev just got hired as Employee
+   
   
   
 
