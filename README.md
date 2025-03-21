@@ -24,7 +24,7 @@ This project focuses on configuring and managing an Active Directory Domain Cont
 ## Steps
 
  - **1. Insall Active Directory(AD)**
-   - Navigate to the Menu tab tab in the upper right corner and click **Manage** and select **Add Roles and Features.**
+   - Navigate to the Menu tab, click **Manage** and select **Add Roles and Features.**
  <img src="https://github.com/user-attachments/assets/00660db0-54b6-4c77-9b55-5b8082e4aae2"/>
 
 <br></br>
