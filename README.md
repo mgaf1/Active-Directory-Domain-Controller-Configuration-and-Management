@@ -29,8 +29,9 @@ This project covers setting up and managing an Active Directory Domain Controlle
  <img src="https://github.com/user-attachments/assets/00660db0-54b6-4c77-9b55-5b8082e4aae2"/>
 
 <br></br>
-  - **Adding Features in Add Roles and Features Wizard Pop-Up Window**
-    - When the pop-up window appears click on **Add Features** and install our Active Directory
+  - **Add Roles and Features**
+    - Click on **Add Features** and install  Active Directory Domain services and DNS Server
+    A DNS Server translates domain names into IP addresses for computers to find each other in our network.
    <img src="https://github.com/user-attachments/assets/9343c117-6cf7-459b-9d88-38aa331feebb"/>
 
   <br></br>
