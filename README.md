@@ -30,19 +30,19 @@ This project covers setting up and managing an Active Directory Domain Controlle
 
 <br></br>
   - **Add Roles and Features**
-    - Click on **Add Features** and install  Active Directory Domain services and DNS Server
-    A DNS Server translates domain names into IP addresses for computers to find each other in our network.
+    - Click on **Add Features** to install  Active Directory Domain Services and DNS Server
+    A DNS server translates domain names into IP addresses so that computers can find each other in our network.
    <img src="https://github.com/user-attachments/assets/9343c117-6cf7-459b-9d88-38aa331feebb"/>
 
   <br></br>
-  - **Select the roles you will like to add to the Server**
-    - In this lab select **Active Directory Domain Services** and click Install to proceed
-    - Wait for the installation to finish. A Warning icon will indicate next to the flag icon in the menu tab
+  - **Select the roles to add to the Server**
+    - Select **Active Directory Domain Services** and click Install to proceed
+    - Wait for the installation to finish. A **alert icon** will appear next to the flag icon in the menu tab
   <img src="https://github.com/user-attachments/assets/c161c795-a257-469b-8997-c90afcc6fa52"/>
 
 <br></br>
 - **2. Promote AD to a Domain Controller (DC)**
-  -  Click on the flag icon in the Tab, In the dropdown click on **Promote this Server to a Domain Controller**
+  - Click on the flag icon in the Menu tab, then click **Promote this Server to a Domain Controller**
    <img src="https://github.com/user-attachments/assets/a5d43db8-9bbd-41c9-bf67-5588f0a5ea12"/>
   <br></br>
   - **Creation of root domain name** - In this lab,the root domain will be **mydomain.local**
