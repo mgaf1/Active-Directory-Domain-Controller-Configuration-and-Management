@@ -71,14 +71,13 @@ This project covers setting up and managing an Active Directory Domain Controlle
 <br></br>
  - Click on the dropdown icon next to the **Domain Name** you created for your forest to display all the **AD Objects** 
 <br></br>
-
 - **Create Organisational Unit (O.U) named ADMINS ,EMPLOYEES and USERS** - These serve as containers for users and their respective departments.
 <br></br>
 
 <img src="https://github.com/user-attachments/assets/a88c3035-bda4-4132-9164-b942a2b9f20c"/>
 <br></br>
 
-- **Create Administrator and Users** - These accounts will be used to access **mydomain.local**
+- **Create Administrator and User Accounts** - These accounts will be used to access **mydomain.local**
   - Right-click on ADMIN, Left-click to select **New User**(eg. in this lab **michael**)
     - Now the user is created.Double-click the new user account, go to **Properties**, and click the **Member Of** tab to add **M Gaf** to **Domain Admins**
   <br></br>
@@ -91,7 +90,7 @@ This project covers setting up and managing an Active Directory Domain Controlle
   <br></br>
   <img src= "https://github.com/user-attachments/assets/239c4472-8b82-4e0e-aa31-38c761af01c2"/>
 
-- **4. Link Virtual client Machine to AD Domain controller**- To enable centralized authentication and user management .
+- **4. Link Virtual WINDOWS client Machine to AD Domain controller**- To enable centralized authentication and user management .
 
   - **Set the AD DC IP as the client's preferred DNS** - To enable domain name resolution, authentication, and Group Policy application.
     <img src="https://github.com/user-attachments/assets/dd17d1b6-37e5-4ffc-ae51-cef402a50b8f"/>
@@ -101,7 +100,7 @@ This project covers setting up and managing an Active Directory Domain Controlle
   - Scroll down and righ-click Advance system settings
   - Click the Computer Name tab and then select **Change** to connect the client machine to the AD Domain..
   - Name the client machine (e.g., **Target** for this lab).
-  -Unselect Workgroups and Select Domain to join client to AD DC.
+  - Unselect Workgroup and Select Domain to join client to AD DC.
   <br></br>
   <img src="https://github.com/user-attachments/assets/c9dd8ec1-a665-4eef-b4dd-24e44c9b1e96"/>
 <br></br>
