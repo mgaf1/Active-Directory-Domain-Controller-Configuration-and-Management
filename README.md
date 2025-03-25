@@ -1,4 +1,4 @@
-<p align="center">
+121    <p align="center">
   <img src="https://github.com/user-attachments/assets/48ecb6c3-9465-4d26-9c94-5eee9f6ea8ee" width="300"/>
 </p>
 
@@ -15,54 +15,57 @@ This project covers setting up and managing an Active Directory Domain Controlle
 
 ## Objectives  
 
-- **Install and run virtual machines** – Set up a virtualized environment
-- **Create a functional domain environment** – Establish a secure and manageable Domain structure  
-- **Set up a new Active Directory forest and create a Root Domain** –  This creates the main system that organizes and manages all computers and users in the network  
-- **Create an Administrator account** – Manage domain users and permissions  
+- **Install and run virtual machines** – Set up a virtualized environment.
+- **Create a functional domain environment** – Establish a secure and manageable Domain structure.
+- **Set up a new Active Directory forest and create a Root Domain** –  This creates the main system that organizes and manages all computers and users in the network.  
+- **Create an Administrator account** – Manage domain users and permissions.  
 - **Link a virtual Windows client machine to the Active Directory domain** – Allows users to log in and access network resources from one central system.
-- **AD Objects Managements** Create user accounts and organize them into departments for easier management.
+- **AD Objects Management** - Create user accounts and organize them into departments for easier management.
 
 ## Steps
 
  - **1. Insall Active Directory(AD)**
-   - Navigate to the Menu tab, click **Manage** and select **Add Roles and Features.**
+   - Navigate to the Menu tab, click **Manage** and select **Add Roles and Features**.
  <img src="https://github.com/user-attachments/assets/00660db0-54b6-4c77-9b55-5b8082e4aae2"/>
 
 <br></br>
   - **Add Roles and Features**
-    - Click on **Add Features** to install  Active Directory Domain Services and DNS Server
-    A DNS server translates domain names into IP addresses so that computers can find each other in our network.
+    - Click on **Add Features** to install  **Active Directory Domain Services** and **DNS Server**.
    <img src="https://github.com/user-attachments/assets/9343c117-6cf7-459b-9d88-38aa331feebb"/>
 
   <br></br>
   - **Select the roles to add to the Server**
-    - Select **Active Directory Domain Services** and click Install to proceed
-    - Wait for the installation to finish. A **alert icon** will appear next to the flag icon in the menu tab
+    - Select **Active Directory Domain Services** and **DNS Server**. The DNS server will translate domain names into IP addresses so that computers can find each other in our network.
+      - Click Install to proceed
+      - Wait for the installation to finish.
   <img src="https://github.com/user-attachments/assets/c161c795-a257-469b-8997-c90afcc6fa52"/>
 
 <br></br>
 - **2. Promote AD to a Domain Controller (DC)**
+ - An **alert icon** will appear next to the flag icon in the menu tab when installation is complete.
   - Click on the flag icon in the Menu tab, then click **Promote this Server to a Domain Controller**
    <img src="https://github.com/user-attachments/assets/a5d43db8-9bbd-41c9-bf67-5588f0a5ea12"/>
   <br></br>
-  - **Creation of root domain name** - In this lab,the root domain will be **mydomain.local**
+  
+  - **Creation of root domain name** - For this lab,the root domain will be **mydomain.local**.
  <img src="https://github.com/user-attachments/assets/7949531e-4b79-4296-a526-f3152396d361"/>
   <br></br>
 
-  - **Create a strong password** - This credentials will be used to log on to the (AD)
+  - **Create a strong password** - This credentials will be used to log on to the **AD**.
  <img src="https://github.com/user-attachments/assets/8c378a43-6dee-42c5-8dc0-c6ef3671dca3"/>
 <br></br>
 
-   - **Check All Prerequisites Before Final Installation** – These are the components that need to be installed
+   - **Check All Prerequisites Before Final Installation** – These are the components that need to be installed.
  <img src="https://github.com/user-attachments/assets/8653fb7c-7577-4269-b83b-940b375e108d"/>
   <br></br>
   
-   - Next,You will see a pop-up window to confirm installation was sucessful
+   - Next, a pop-up window will appear to confirm installation was sucessful.
  <img src="https://github.com/user-attachments/assets/9921eb15-b810-43e4-a6b7-cbb678f9af5c"/>
 
  <br></br>
-- **3.Create Organisational Units and Users in Active Directory** – The Administrator account will be used to manage User,Organisation Unit(O.U)
-  groups and computers etc. In the Server Manager,look on the upright corner of the server manager and select he tab **Tools** and **Active Directory Users and Computers**
+- **3.Create Organisational Units and Users in Active Directory** – The Administrator account will be used to manage **Users**,**Organisation Units (O.U)**
+  **groups** and **computers**.
+   - In the Menu, click **Tools** and select **Active Directory Users and Computers**.
  <img src="https://github.com/user-attachments/assets/62e98bae-14fc-460c-8ed0-5f09348b335e"/>
 
 <br></br>
